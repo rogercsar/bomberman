@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.gameCanvas {
+    margin-left: 50px;
+    margin-top: 15px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
