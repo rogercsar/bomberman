@@ -1,4 +1,4 @@
-#Desenvolvimento de um Jogo Web Inspirado em Bomberman com JavaScript#
+# Desenvolvimento de um Jogo Web Inspirado em Bomberman com JavaScript
 
 Nos últimos 2 dias me desafiei a recriar a essência de um clássico dos videogames em um ambiente web: o Bomberman. O objetivo era construir um jogo simples, mas com elementos que proporcionassem diversão e um toque de nostalgia. Nesse artigo, vou compartilhar como foi o processo de desenvolvimento, os desafios que enfrentei, as soluções que implementei, e os aprendizados que obtive ao longo dessa jornada.
 
