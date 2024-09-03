@@ -1,14 +1,74 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
-    <title>Bomberman - Fase 1</title>
+    <title>Bomberman - Start</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .container img {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            display: block;
+            width: 150px;
+            margin: 10px auto;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button.close {
+            background-color: #f44336;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
-    <canvas class="gameCanvas" id="gameCanvas"></canvas>
 
-    <script src="js/index.js"></script>
+    <div class="container">
+        <img src="path/to/bomberman.png" alt="Logo do Jogo">
+        <button onclick="startGame()">Começar</button>
+        <button class="close" onclick="closeGame()">Fechar</button>
+    </div>
+
+    <script>
+        function startGame() {
+            // Redireciona para a página do jogo
+            window.location.href = 'start.html'; // substitua com o caminho do jogo
+        }
+
+        function closeGame() {
+            if (confirm("Tem certeza que deseja fechar o jogo?")) {
+                window.close(); // Fecha a janela
+            }
+        }
+    </script>
+
 </body>
 </html>
