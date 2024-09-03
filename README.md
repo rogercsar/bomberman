@@ -24,12 +24,14 @@ O Projeto: A ideia era clara: criar um jogo baseado no Bomberman, onde o jogador
 * Desafios e Soluções: Um dos maiores desafios foi implementar a lógica de colisão e a interação entre os diferentes elementos do jogo, como blocos, inimigos, e bombas. Outra questão foi 
   garantir que o jogo carregasse novas fases de forma suave, sem a necessidade de redesenhar o mapa a cada transição.
 
-**Aprendizados:** 
+**Aprendizados** 
 
 Este projeto me proporcionou uma compreensão mais profunda sobre manipulação de elementos gráficos com JavaScript, gerenciamento de estados do jogo, e otimização de código para web. Além disso, aprimorei minhas habilidades em lógica de programação ao criar sistemas de pontuação, vidas, e fases.
 
-**Conclusão:** 
+**Conclusão** 
 
 Criar um jogo web inspirado no Bomberman foi uma experiência desafiadora, mas extremamente gratificante. Foi uma ótima oportunidade para aplicar e reforçar conhecimentos em JavaScript e desenvolvimento web, além de me conectar novamente com a diversão e criatividade que os jogos proporcionam.
 
 Se você também está pensando em desenvolver um jogo ou qualquer outro projeto desafiador, meu conselho é: comece pequeno, divida o projeto em partes gerenciáveis, e aprenda com cada erro. No final, o aprendizado e a satisfação de ver o projeto funcionando são recompensas inestimáveis.
+
+**Jogue Online :** https://simplebomberman.netlify.app/index.html
